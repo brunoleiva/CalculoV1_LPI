@@ -51,9 +51,9 @@ key_invert = keyboard_check_released(ord("F"));//INVERTE GRAVIDADE
 
 	//JUMP
 	if place_meeting(x,y+1,obj_wall) and key_jump and grv>0{
-		vspd -= 12;
+		vspd -= 8;
 	}else if place_meeting(x,y-1,obj_wall) and key_jump and grv<0{
-		vspd +=12;
+		vspd +=8;
 	}
 	//INVERTE A GRAVIDADE
 	if key_invert{
