@@ -26,8 +26,8 @@ key_invert = keyboard_check_released(ord("F"));//INVERTE GRAVIDADE
 	var move = key_right - key_left
 	hspd = move * spd;
 	vspd = vspd + grv;
-	if(hspd != 0) image_xscale = sign(hspd);
-		
+
+	
 	//COLISAO HORIZONTAL
 	if place_meeting(x+hspd,y,obj_wall)
 	{
@@ -68,18 +68,21 @@ key_invert = keyboard_check_released(ord("F"));//INVERTE GRAVIDADE
 	
 #endregion
 
-#region //Sprites animados
-if(keyboard_check(ord("A"))) {
-	image_speed = hspd / 3;
+#region Sprites animados
+/*if(keyboard_check(ord("A"))) {
+	image_speed = sign(hspd);
 	sprite_index = SaraWalkLeft;
 }
 if(keyboard_check(ord("D"))) {
-	image_speed = hspd / 3;
+	image_speed = sign(hspd);
 	sprite_index = SaraWalkRight;
-}
-if(keyboard_check(vk_nokey)) { //Stop animating
+}*/
+if(hspd = 0) { //Stop animating
 	image_speed = 0; //Set speed of playing frames to 0
 	image_index = 0; //Set current frame to 0
-	hspd = 3; //Return speed to normal
 }
+if(hspd != 0){ 
+	image_xscale = sign(hspd);
+	image_speed = sign(hspd);
+		}
 #endregion
