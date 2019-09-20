@@ -24,7 +24,7 @@ key_invert = keyboard_check_released(ord("F"));//INVERTE GRAVIDADE
 
 #region MOVIMENTACAO
 	var move = key_right - key_left
-	hspd = move * spd;
+	hspd = move * walkspd;
 	vspd = vspd + grv;
 	if(hspd != 0) image_xscale = sign(hspd);
 		
@@ -71,11 +71,11 @@ key_invert = keyboard_check_released(ord("F"));//INVERTE GRAVIDADE
 #region //Sprites animados
 if(keyboard_check(ord("A"))) {
 	image_speed = hspd / 3;
-	sprite_index = SaraWalkLeft;
+	sprite_index = spr_saraWalkLeft;
 }
 if(keyboard_check(ord("D"))) {
 	image_speed = hspd / 3;
-	sprite_index = SaraWalkRight;
+	sprite_index = spr_saraWalkRight;
 }
 if(keyboard_check(vk_nokey)) { //Stop animating
 	image_speed = 0; //Set speed of playing frames to 0

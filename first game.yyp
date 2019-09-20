@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "21283883-b155-4f00-b023-89d50b52f841",
+            "Value": {
+                "id": "8b32def7-d4ee-4376-a806-6dd02fcdb746",
+                "resourcePath": "sprites\\spr_enemyDead\\spr_enemyDead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2d1b59f0-e378-4a5b-8f5f-56de35e4290a",
             "Value": {
                 "id": "b02538da-d8fc-4853-8f78-ac66bb9a6c6d",
@@ -98,7 +106,7 @@
             "Key": "44166326-1ac0-4059-b6b6-57d12d2bd263",
             "Value": {
                 "id": "d9c7f3c2-21f0-4c5c-b3e8-7a18f26f0d2b",
-                "resourcePath": "sprites\\SaraWalkRight\\SaraWalkRight.yy",
+                "resourcePath": "sprites\\spr_saraWalkRight\\spr_saraWalkRight.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -127,6 +135,14 @@
             }
         },
         {
+            "Key": "63ec3d84-aa01-447e-86e6-594fdcac3c15",
+            "Value": {
+                "id": "64f57a60-660f-4468-b3e0-3e7a07d0cd8f",
+                "resourcePath": "objects\\obj_enemyDead\\obj_enemyDead.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7201e0b8-afca-4c5c-9648-291e7596cb79",
             "Value": {
                 "id": "6ac01f20-ac25-4a3f-896a-9caef262863b",
@@ -138,7 +154,7 @@
             "Key": "79e63c43-1882-439c-b5c6-382abf605ada",
             "Value": {
                 "id": "f3e8137b-ba31-4135-9d1c-e6ac61c3cdd6",
-                "resourcePath": "sprites\\Background\\Background.yy",
+                "resourcePath": "sprites\\spr_background\\spr_background.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -146,7 +162,7 @@
             "Key": "7e8ed90b-b987-4bd4-aae1-4b5fc47413a2",
             "Value": {
                 "id": "bddfea19-11b2-4b9a-8e61-5e22b7d5d09c",
-                "resourcePath": "sprites\\SaraWalkLeft\\SaraWalkLeft.yy",
+                "resourcePath": "sprites\\spr_saraWalkLeft\\spr_saraWalkLeft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -183,6 +199,22 @@
             }
         },
         {
+            "Key": "a0da0817-e801-45ad-b673-3200b1ebacaa",
+            "Value": {
+                "id": "89c4df27-e867-4165-9121-98599fba3283",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a4335f5e-3747-434c-b27c-e30956a6efb5",
+            "Value": {
+                "id": "1e8fc694-6d1d-41a3-89c7-45b2a748516d",
+                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a562a265-d1ac-4082-a0a6-2025ebeb2c7a",
             "Value": {
                 "id": "0346d00d-3b52-4229-a370-ccc94a62bc54",
@@ -194,7 +226,7 @@
             "Key": "aebd97cb-603f-4f8c-89dc-591ec3524595",
             "Value": {
                 "id": "6a1abaf9-a762-40f9-8874-7f191bb2c187",
-                "resourcePath": "objects\\objSara\\objSara.yy",
+                "resourcePath": "objects\\obj_sara\\obj_sara.yy",
                 "resourceType": "GMObject"
             }
         },

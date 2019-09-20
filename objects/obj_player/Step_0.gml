@@ -7,7 +7,7 @@ key_invert = keyboard_check_released(ord("F"));//INVERTE GRAVIDADE
 
 #region MOVIMENTACAO
 	var move = key_right - key_left
-	hspd = move * spd;
+	hspd = move * walkspd;
 	vspd = vspd + grv;
 	
 	if(hspd != 0) image_xscale = sign(hspd);

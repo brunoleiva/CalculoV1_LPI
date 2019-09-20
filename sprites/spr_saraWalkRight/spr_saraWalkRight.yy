@@ -2,7 +2,7 @@
     "id": "44166326-1ac0-4059-b6b6-57d12d2bd263",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "SaraWalkRight",
+    "name": "spr_saraWalkRight",
     "For3D": false,
     "HTile": false,
     "VTile": false,
