@@ -1,6 +1,6 @@
 vspd = vspd + grv;
 	
-	if(hspd != 0) image_xscale = sign(hspd);
+	if(hspd != 0) image_xscale = -(sign(hspd));
 		
 	//COLISAO HORIZONTAL
 	if place_meeting(x+hspd,y,obj_wall)

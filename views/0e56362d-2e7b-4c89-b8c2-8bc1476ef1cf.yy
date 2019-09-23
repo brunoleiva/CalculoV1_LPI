@@ -4,6 +4,7 @@
     "mvc": "1.1",
     "name": "0e56362d-2e7b-4c89-b8c2-8bc1476ef1cf",
     "children": [
+        "8705791f-e9ba-4a4a-9cbf-117fd9601511",
         "f6c7987e-f3cb-4c70-b4d7-cd206b63108c"
     ],
     "filterType": "GMRoom",

@@ -13,7 +13,9 @@
         "dedacca2-b8ce-4822-a90c-423720643a3c",
         "2d1b59f0-e378-4a5b-8f5f-56de35e4290a",
         "a4335f5e-3747-434c-b27c-e30956a6efb5",
-        "21283883-b155-4f00-b023-89d50b52f841"
+        "21283883-b155-4f00-b023-89d50b52f841",
+        "f6eebc31-435c-466e-9ef0-1fafe60eef1d",
+        "c1547660-517d-4bf3-a0fa-d5f8f9eb6b31"
     ],
     "filterType": "GMSprite",
     "folderName": "sprites",
