@@ -1,4 +1,4 @@
-/// @description Insert description here
+ /// @description Insert description here
 /*if(keyboard_check(ord("D"))) { //Move to the right
 	x += walkSpeed; //Physically moves the object the amount of walkSpeed to the right
 	image_speed = walkSpeed / 3; //Moves through the frames of the playing sprite
