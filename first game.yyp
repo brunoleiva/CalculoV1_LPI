@@ -244,6 +244,11 @@
                 "id": "6496ebb0-aa2e-436b-8fcb-21d8fba77ea4",
                 "resourcePath": "objects\\obj_camera\\obj_camera.yy",
                 "resourceType": "GMObject"
+            "Key": "ab1ab7fa-5f70-4b53-9e7d-63b402dd739c",
+            "Value": {
+                "id": "2218d77d-e5ae-40a6-ad99-41ac21527255",
+                "resourcePath": "sprites\\spr_door\\spr_door.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -271,6 +276,14 @@
             }
         },
         {
+            "Key": "c452e8f7-a04a-4721-8dc9-6971cfffffde",
+            "Value": {
+                "id": "01e5c9ba-f246-475f-8a57-c96f74c1e84f",
+                "resourcePath": "rooms\\room02\\room02.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "0b691d9d-06e3-4c09-abce-0ae39c7e03f8",
@@ -292,6 +305,14 @@
                 "id": "e32d9d05-a494-41b2-aa18-e0bbc09de002",
                 "resourcePath": "sprites\\Foreground\\Foreground.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e11d5099-8154-486c-9b78-c5092d209727",
+            "Value": {
+                "id": "77f63ea2-c982-4b8a-8495-cf5369879e23",
+                "resourcePath": "objects\\objWarp\\objWarp.yy",
+                "resourceType": "GMObject"
             }
         },
         {
